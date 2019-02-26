@@ -145,22 +145,19 @@ p{
     text-align: center;
 }
 
-/*
-TODO: per spostare l'icone al lato sinitro centrate e poi a destra il loro titolo e testo per ogni box?
--Devi creare un contenitore per ogni oggetto a cui vuoi usare display: flex
-.contenitore-colonne: devi dargli una lunghezza massima, e un margin auto, e togli l'height perchè non la sai l'altezza
----.box-colonna: display flex; justify-content: space-between
-------.contenitore-user
----------<i>
----------<h4>
-------.contenitore-testo
----------<p>
-*/
+/* TODO: per spostare l'icone al lato sinitro centrate e poi a destra il loro titolo e testo per ogni box?
+TODO: sto cercando di centrare il tsto con il suo titolo, uno affianco all'altro
+Devi creare
+.contenitore-colonne e gli dai display flex; justify-content: space-between, e gli dai una lughezza massima del contenitore
+---.box-colonna, gli dai una lunghezza massima per ogni singola colonna
+------titolo
+------paragrafo
 
+*/
 .contenitore-colonne{
     display: flex;
     justify-content: space-between;
-    /*height: 200px;*/
+    height: 200px;
 }
 .contenitore-colonne .fas{
     font-size: 60px;
