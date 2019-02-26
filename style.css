@@ -215,4 +215,11 @@ h4{
 .contenitore-paragrafo{
     text-align: center;
 }
-
+/*TODO: distanziare icone v dalla scritta*/
+.check{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
