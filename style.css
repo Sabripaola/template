@@ -197,6 +197,7 @@ h4{
     color: #fff;
     margin: 50px 0px;
 }
+
 .offer{
     width: 100%;
     height: 600px;
@@ -212,6 +213,12 @@ h4{
   justify-content: center;
     align-items: center;
 }
+.box .far{
+    font-size: 35px;
+}
+.box .fas{
+    font-size: 35px;
+}
 /*TODO: hr deve essere separato per ogni box */
 .contenitore-paragrafo{
     text-align: center;
@@ -223,4 +230,7 @@ h4{
     justify-content: center;
     align-items: center;
     margin: 10px;
+}
+.check .fas{
+    font-size: 17px;
 }
