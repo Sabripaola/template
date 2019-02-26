@@ -4,27 +4,32 @@
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
 }
-    /*:
-    NON SI DA LO SFONDO A TUTTO (*) ALTRIMENTI OGNI ELEMENTO AVRA' QUESTO SFONDO. ANCHE <P> <H1> ECC
-    SI CREA UN CONTENITORE
-    .contenitore (avrà lo sfondo) - per scurire lo sfondo si usa filter: brightness(60%);
-    ---.header
-    ------.logo
-    ---------h1
-    ------menu
-    */
-/* TODO: non ho ben capito, ho creato il contenitore ma non vedo lo sfondo che ho scelto fino all'animazione*/
+
+/*
+TODO: non ho ben capito, ho creato il contenitore ma non vedo lo sfondo che ho scelto fino all'animazione
+Non vedi lo sfondo perchè:
+1 non è url ma background-image: url('link)
+2 Il link che hai inserito è sbagliato per questo ti ho detto di usare https://placeimg.com/420/320
+*/
 .contenitore{
-    url("https://png.pngtree.com/thumb_back/fw800/back_pic/03/58/39/5857a2b29776999.jpg") no-repeat center fixed;
+    /*url("https://png.pngtree.com/thumb_back/fw800/back_pic/03/58/39/5857a2b29776999.jpg") no-repeat center fixed;*/
+    background-image: url('https://placeimg.com/1200/700');
     background-size: cover;
     filter: brightness(90%);
 }
-/* TODO: position:fixed ma quando scrollo non c'è*/
+
+/*
+TODO: position:fixed ma quando scrollo non c'è
+In questo caso non devi usare position:fixed, ma position: sticky
+*/
 header{
     width: 100%;
     height: 80px;
     display: flex;
     position: fixed;
+    position: sticky;
+    top: 0px;
+    left:0px;
    /* background: #ccc; */
 }
 .logo{
@@ -41,6 +46,7 @@ h1{
     width: 70%;
     height: auto;
 }
+
 li, a{
     list-style-type: none;
     display: inline-block;
@@ -162,12 +168,15 @@ p{
 
 .paragrafo{
 }
-/* TODO: sto cercando di centrare il tsto con il suo titolo, uno affianco all'altro */
+/*
+TODO: sto cercando di centrare il tsto con il suo titolo, uno affianco all'altro
+Devi creare
+.contenitore-colonne e gli dai display flex; justify-content: space-between, e gli dai una lughezza massima del contenitore
+---.box-colonna, gli dai una lunghezza massima per ogni singola colonna
+------titolo
+------paragrafo
+
+*/
 .tre{
-    width: 33%;
-    height: auto;
-    display: flex;
-   justify-content: space-between;
-   align-items: center;
 }
 
