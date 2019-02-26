@@ -219,11 +219,36 @@ h4{
 .box .fas{
     font-size: 35px;
 }
-/*TODO: hr deve essere separato per ogni box */
+/*
+TODO: hr deve essere separato per ogni box
+BOX DEVE AVERE UNA LUNGHEZZA MASSIMA, E .contenitore-principale DEVE AVERE JUSTIFY-CONTENT: SPACE-BETWEEN E DEVI CENTRARLO
+.contenitore-principale{
+    justify-content: space-between;
+    max-width: 990px;
+    margin:auto;
+ }
+.box{
+width: 20%;
+}
+
+POI DEVI DARE UNA LUNGHEZZA MASSIMA ANCHE A
+*/
+
 .contenitore-paragrafo{
     text-align: center;
 }
-/*TODO: distanziare icone v dalla scritta*/
+/*
+TODO: distanziare icone v dalla scritta
+all'interno dell'elemento <i> non puoi inserire del testo perchè lui è al suo interno ha già l'icona e non può contenere altre cose, qundi:
+.check
+---<i class="fas fa-check">
+---<p> Website deisgn </p>
+
+poi al tag <i> gli dai un margin-right, esempio:
+.check .fa-check{
+    margin-right: 10px;
+}
+*/
 .check{
     display: flex;
     flex-direction: column;
