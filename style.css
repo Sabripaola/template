@@ -237,11 +237,11 @@ h4{
 }
 .check .fas{
     font-size: 17px;
-
 }
 .con-text{
-    display flex;
-    align-item:center;
+    display:flex;
+
+    align-items: center;
 }
 .con-text p{
     margin-top: 0px;
