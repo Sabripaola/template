@@ -206,22 +206,12 @@ h4{
     display: flex;
     width: 100%;
 }
-/*
-TODO: le icone, h5, p devono essere centrate nel loro contenitore uno sotto l'altro
--Non ti funziona perchè devi racchiuderlo in un contenitore
-.box
----.contenitore-titolo { display flex, flex-direction: column;
-------i
-------h5
----.contenitore-paragrafo
-------p
----<hr>
-
-Usa sempre font awesome, una volta caricata una libreria devi sempre usare la stessa
-*/
-.box{
+.contenitore-titolo{
     display: flex;
-    height: auto;
-    justify-content: center;
+    flex-direction: column;
+  justify-content: center;
+    align-items: center;
 }
-
+.contenitore-paragrafo{
+    text-align: center;
+}
