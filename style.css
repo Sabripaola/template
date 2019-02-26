@@ -240,9 +240,20 @@ h4{
 }
 .con-text{
     display:flex;
-
     align-items: center;
 }
 .con-text p{
     margin-top: 0px;
+}
+.photo{
+    width: 100%;
+    height: 200px;
+    background: #F7F7F7;
+}
+/*TODO: allineare il menu in centro*/
+.color{
+    color: #444444;
+    display: flex;
+    justify-content: center;
+    display: inline-block;
 }
