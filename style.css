@@ -4,33 +4,18 @@
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
 }
-
-/*
-TODO: non ho ben capito, ho creato il contenitore ma non vedo lo sfondo che ho scelto fino all'animazione
-Non vedi lo sfondo perchè:
-1 non è url ma background-image: url('link)
-2 Il link che hai inserito è sbagliato per questo ti ho detto di usare https://placeimg.com/420/320
-*/
 .contenitore{
-    /*url("https://png.pngtree.com/thumb_back/fw800/back_pic/03/58/39/5857a2b29776999.jpg") no-repeat center fixed;*/
     background-image: url('https://placeimg.com/1200/700');
     background-size: cover;
     filter: brightness(90%);
 }
-
-/*
-TODO: position:fixed ma quando scrollo non c'è
-In questo caso non devi usare position:fixed, ma position: sticky
-*/
 header{
     width: 100%;
     height: 80px;
     display: flex;
-    position: fixed;
     position: sticky;
     top: 0px;
     left:0px;
-   /* background: #ccc; */
 }
 .logo{
     width: 30%;
@@ -66,7 +51,6 @@ li, a{
     display: flex;
     justify-content: center;
     align-items: flex-end;
-  /*  background: #ccc; */
 }
 h2{
     color: #fff;
@@ -76,7 +60,6 @@ h2{
 .social{
     width: 100%;
     height: 100px;
- /*   background: #ccc; */
 }
 .logo, .menu, .social{
     display: flex;
@@ -92,15 +75,11 @@ h2{
     height: 280px;
     align-items: center;
     justify-content: center;
-  /*  background: #ccc; */
 }
 .round{
     position: absolute;
-  /*  border: 2px solid #fff; */
     width: 40px;
     height: 40px;
- /*   border-radius: 100%; */
-  /*  background: red; */
     transform: rotate(90deg);
 }
 #cta{
@@ -148,7 +127,7 @@ h2{
 }
 .about{
     width: 100%;
-    height: 540px;
+    height: 500px;
     background: white;
     /*display: flex;*/
 }
@@ -166,8 +145,7 @@ p{
     text-align: center;
 }
 
-.paragrafo{
-}
+/* TODO: per spostare l'icone al lato sinitro centrate e poi a destra il loro titolo e testo per ogni box?
 /*
 TODO: sto cercando di centrare il tsto con il suo titolo, uno affianco all'altro
 Devi creare
@@ -177,10 +155,16 @@ Devi creare
 ------paragrafo
 
 */
-.tre{
+.contenitore-colonne{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
 }
-.tre .fas{
+.contenitore-colonne .fas{
     font-size: 60px;
     margin: 10px;
+}
+.box-colonna{
+    height: auto;
 }
 
