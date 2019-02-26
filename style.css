@@ -4,10 +4,12 @@
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
 }
+body{
+    background: #ffffff;
+}
 .contenitore{
     background-image: url('https://placeimg.com/1200/700');
     background-size: cover;
-    filter: brightness(70%);
 }
 header{
     width: 100%;
@@ -16,6 +18,7 @@ header{
     position: sticky;
     top: 0px;
     left:0px;
+    background: #111;
 }
 .logo{
     width: 30%;
@@ -133,7 +136,6 @@ h2{
     /*display: flex;*/
 }
 h3{
-    margin-top: 25px;
     padding: 40px;
     font-size: 35px;
     text-transform: capitalize;
@@ -197,21 +199,36 @@ h4{
 /*TODO:
 il menu iniziale non rimane fisso in alto con lo scroll (rimane fisso solo fino ad about)
 appare del bianco tra una la penultima sezione con questa nuova, perchè?
-le icone, h5, p devono essere centrate nel loro contenitore uno sotto l'altro
-le v le prendo sempre da font awesome?*/
+-PERCHE' HEADER ESISTE SOLO NEL SUO CONTENITORE, AL DI FUORI NO, QUINDI DEVI ESTENDERE IL CONTENITORE AD TUTTO IL DOCUMENTO, COSì FACENDO PERO IL BACKGROUND-IMAGE PRENDE TUTTO IL BODY, BISOGNA RISCRIVERE L'HTML, HO RISOLTO MOMENTANEAMENTE PERO' IL PROBLEMA
+E' CHE LO SFONDO E' LEGGERMENTE SGRANATO
+*/
 .offer{
     width: 100%;
     height: 600px;
+    background: #ffffff;
    /* background: pink; */
 }
 .contenitore-principale{
     display: flex;
     width: 100%;
 }
+/*
+TODO: le icone, h5, p devono essere centrate nel loro contenitore uno sotto l'altro, le v le prendo sempre da font awesome?
+Separa sempre i to-do, to do vuol dire "da fare" quindi deve essere separato per ogni azione da fare,
+-Non ti funziona perchè devi racchiuderlo in un contenitore
+.box
+---.contenitore-titolo { display flex, flex-direction: column;
+------i
+------h5
+---.contenitore-paragrafo
+------p
+---<hr>
+
+Usa sempre font awesome, una volta caricata una libreria devi sempre usare la stessa
+*/
 .box{
     display: flex;
     height: auto;
     justify-content: center;
-
 }
 
