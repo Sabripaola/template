@@ -239,11 +239,10 @@ h4{
     font-size: 17px;
 
 }
-
+.con-text{
+    display flex;
+    align-item:center;
+}
 .con-text p{
     margin-top: 0px;
 }
-/*
-TODO: allineare le v con la scritta del
-RISOLTO IN HTML
-*/
