@@ -205,12 +205,15 @@ h4{
 }
 .contenitore-principale{
     display: flex;
+    justify-content: space-between;
+    max-width: 990px;
+    margin:auto;
     width: 100%;
 }
 .contenitore-titolo{
     display: flex;
     flex-direction: column;
-  justify-content: center;
+    justify-content: center;
     align-items: center;
 }
 .box .far{
@@ -219,34 +222,12 @@ h4{
 .box .fas{
     font-size: 35px;
 }
-/*
-TODO: hr deve essere separato per ogni box
-BOX DEVE AVERE UNA LUNGHEZZA MASSIMA, E .contenitore-principale DEVE AVERE JUSTIFY-CONTENT: SPACE-BETWEEN E DEVI CENTRARLO
-.contenitore-principale{
-    justify-content: space-between;
-    max-width: 990px;
-    margin:auto;
- }
 .box{
-width: 20%;
+    width: 20%;
 }
-*/
-
 .contenitore-paragrafo{
     text-align: center;
 }
-/*
-TODO: distanziare icone v dalla scritta
-all'interno dell'elemento <i> non puoi inserire del testo perchè lui è al suo interno ha già l'icona e non può contenere altre cose, qundi:
-.check
----<i class="fas fa-check">
----<p> Website deisgn </p>
-
-poi al tag <i> gli dai un margin-right, esempio:
-.check .fa-check{
-    margin-right: 10px;
-}
-*/
 .check{
     display: flex;
     flex-direction: column;
@@ -257,3 +238,10 @@ poi al tag <i> gli dai un margin-right, esempio:
 .check .fas{
     font-size: 17px;
 }
+/*TODO: allineare le v con la scritta del paragrafo*/
+/*
+ .fas p{
+    display: flex;
+    justify-content: space-between;
+}
+*/
