@@ -256,4 +256,5 @@ h4{
     display: flex;
     justify-content: center;
     display: inline-block;
+    cursor: pointer;
 }
