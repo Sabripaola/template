@@ -125,9 +125,10 @@ h2{
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
+/*SEZIONE ABOUT*/
 .about{
     width: 100%;
-    height: 500px;
+    height: 400px;
     background: white;
     /*display: flex;*/
 }
@@ -140,33 +141,34 @@ h3{
 }
 p{
     margin-top: 20px;
-    padding: 15px;
+    padding: 10px;
     font-size: 18px;
     text-align: center;
 }
-
-/*
-TODO: per spostare l'icone al lato sinitro centrate e poi a destra il loro titolo e testo per ogni box?
--Devi creare un contenitore per ogni oggetto a cui vuoi usare display: flex
-.contenitore-colonne: devi dargli una lunghezza massima, e un margin auto, e togli l'height perchè non la sai l'altezza
----.box-colonna: display flex; justify-content: space-between
-------.contenitore-user
----------<i>
----------<h4>
-------.contenitore-testo
----------<p>
-
-*/
 .contenitore-colonne{
     display: flex;
-    justify-content: space-between;
-    height: 200px;
+    /* justify-content: space-between;*/
+    width: 70%;
+    margin: auto;
 }
 .contenitore-colonne .fas{
     font-size: 60px;
     margin: 10px;
 }
 .box-colonna{
+    margin: auto;
+    display: flex;
     height: auto;
+    justify-content: space-between;
 }
+.par{
+    text-align: justify;
+    font-size: 14px;
+}
+h4{
+    margin-left: 15px;
+    text-align: justify;
+}
+/*WHATCH*/
+
 
