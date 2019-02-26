@@ -19,6 +19,7 @@ header{
     top: 0px;
     left:0px;
     background: #111;
+    z-index: 9999;
 }
 .logo{
     width: 30%;
@@ -196,25 +197,17 @@ h4{
     color: #fff;
     margin: 50px 0px;
 }
-/*TODO:
-il menu iniziale non rimane fisso in alto con lo scroll (rimane fisso solo fino ad about)
-appare del bianco tra una la penultima sezione con questa nuova, perchè?
--PERCHE' HEADER ESISTE SOLO NEL SUO CONTENITORE, AL DI FUORI NO, QUINDI DEVI ESTENDERE IL CONTENITORE AD TUTTO IL DOCUMENTO, COSì FACENDO PERO IL BACKGROUND-IMAGE PRENDE TUTTO IL BODY, BISOGNA RISCRIVERE L'HTML, HO RISOLTO MOMENTANEAMENTE PERO' IL PROBLEMA
-E' CHE LO SFONDO E' LEGGERMENTE SGRANATO
-*/
 .offer{
     width: 100%;
     height: 600px;
     background: #ffffff;
-   /* background: pink; */
 }
 .contenitore-principale{
     display: flex;
     width: 100%;
 }
 /*
-TODO: le icone, h5, p devono essere centrate nel loro contenitore uno sotto l'altro, le v le prendo sempre da font awesome?
-Separa sempre i to-do, to do vuol dire "da fare" quindi deve essere separato per ogni azione da fare,
+TODO: le icone, h5, p devono essere centrate nel loro contenitore uno sotto l'altro
 -Non ti funziona perchè devi racchiuderlo in un contenitore
 .box
 ---.contenitore-titolo { display flex, flex-direction: column;
