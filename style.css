@@ -183,11 +183,25 @@ h4{
     height: auto;
     background-size: cover;
 }
-.whatch .far{
-    font-size: 80px;
-    color: #fff;
+
+.watch{
+    background-image: url('https://placeimg.com/1200/200');
     display: flex;
     justify-content: center;
     align-items: center;
+    filter: brightness(90%);
+}
+/*
+Non è whatch ma watch, se lo correggi funziona
+*/
+.whatch .far{
+    font-size: 80px;
+    color: #fff;
+    margin: 50px 0px;
+    /*Questi vanno al padre
+        justify-content: center;
+        align-items: center;
+        filter: brightness(90%);
+    */
 }
 
