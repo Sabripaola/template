@@ -35,7 +35,6 @@ h1{
     width: 70%;
     height: auto;
 }
-
 li, a{
     list-style-type: none;
     display: inline-block;
@@ -147,6 +146,10 @@ p{
     padding: 10px;
     font-size: 18px;
     text-align: center;
+    color: #414141;
+}
+p{
+    color: #414141;
 }
 .contenitore-colonne{
     display: flex;
@@ -168,6 +171,7 @@ p{
 .par{
     text-align: justify;
     font-size: 14px;
+    color: #414141;
 }
 h4{
     margin-left: 15px;
@@ -244,6 +248,7 @@ h4{
 }
 .con-text p{
     margin-top: 0px;
+    color: #414141;
 }
 .photo{
     width: 100%;
@@ -263,5 +268,5 @@ ul{
 
 /*
 TODO: Allineare il container con il contenuto
-TODO: Sistemare i colori
+
 */
