@@ -270,43 +270,42 @@ ul{
     display: inline-block;
     cursor: pointer;
 }
-/*TODO: non riesco a fare comparire le immagini ho creato un div con al suo interno sei div racchiuso all'interno della section
-se creo  altri due div e metto per ciascuno 3 foto ?  sono troppi i div?
-Devi creare un div e al suo interno sei div
-.galleria (display flex, flex wrap: wrap )
----.galleria .div{width: 33.3%, height: 400px;
----.galleria .uno{ background-image: url('link')
-
-NON RIUSCIVI A VEDERLO PERCHE' NON GLI HAI DATO NE UNA LUNGHEZZA NE UN ALTEZZA
- */
+/*TODO: non mi appaiono le foto, dove sto sbaglando*/
 .galleria{
     width: 100%;
     height: 700px;
     display: flex;
+    flex-wrap: wrap;
     z-index: 9000;
+}
+.box-photo{
+    width: 33.3%;
+    height: 400px;
 }
 .uno{
     background-image: url('https://placeimg.com/470/340');
     width: 25%;
-} /*
+}
 .due{
-    background-image: url('https://placeimg.com/470/340') ;
+    background-image: url('https://placeimg.com/470/340');
+    width: 25%;
 }
 .tre{
-    background-image: url('https://placeimg.com/470/340') ;
+    background-image: url('https://placeimg.com/470/340');
+    width: 25%;
 }
 .quattro{
-    background-image: url('https://placeimg.com/470/340') ;
+    background-image: url('https://placeimg.com/470/340');
+    width: 25%;
 }
 .cinque{
-    background-image: url('https://placeimg.com/470/340') ;
+    background-image: url('https://placeimg.com/470/340');
+    width: 25%;
 }
 .sei{
-    background-image: url('https://placeimg.com/470/340') ;
-}*/
+    background-image: url('https://placeimg.com/470/340');
+    width: 25%;
+}
 /*
-TODO: Allineare il container con il contenuto
-DOMANDA: Il container se lo allineo col resto del contenuto si modifica tutto? devo cambiare anche width e le sue proprietà?
-
 ALL'INTERNO DI .UNO DEVI INSERIRE UN PARAGRAFO E SEMPRE A .UNO DEVI DARE DISPLAY FLEX, JUSTIFY-CONTENT:CENTER, ALIGN-ITEMS: CENTER
 */
