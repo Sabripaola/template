@@ -308,6 +308,10 @@ ul{
 .galleria div:hover{
     filter: brightness(70%);
 }
+h6{
+    color: #fff;
+    text-align: center;
+}
 .galleria p{
     color: #fff;
 }
