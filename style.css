@@ -333,27 +333,33 @@ h6{
 }
 .cf div{
     width: 33%;
-    height: 400px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
 }
 .first{
     background-image: url('https://placeimg.com/340/340');
     background-size:cover;
     border: 1px solid black;
+    height: 400px;
 }
 .second{
     background-image: url('https://placeimg.com/340/340');
     background-size:cover;
+    height: 400px;
 }
 .third{
     background-image: url('https://placeimg.com/340/340');
     background-size:cover;
     border: 1px solid black;
+    height: 400px;
 }
 .cf div:hover{
     filter: brightness(50%);
+}
+.contenuto{
+    display: flex;
+    flex-direction: column;
 }
 /*TODO: h6 e p devono essere centrati, hanno le stesse proprietà della sezione precedente */
 
