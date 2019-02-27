@@ -393,9 +393,7 @@ h6{
     font-size: 40px;
     font-weight: bold;
 }
-/*
-TODO: lista una parola sotto l'altra nella loro card
-*/
+/*TODO: sono riuscita acon la prima card ma le altre due  il testo non è centrato*/
 .card-lista{
     display: flex;
     flex-direction: column;
@@ -404,4 +402,7 @@ TODO: lista una parola sotto l'altra nella loro card
 }
 .card li{
     color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
