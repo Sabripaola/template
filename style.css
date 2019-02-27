@@ -254,9 +254,10 @@ h5{
     margin-top: 0px;
     color: #414141;
 }
+/*SEZIONE FOTO*/
 .photo{
     width: 100%;
-    height: 200px;
+    height: 1000px;
     background: #F7F7F7;
 }
 ul{
@@ -269,7 +270,35 @@ ul{
     display: inline-block;
     cursor: pointer;
 }
+/*TODO: non riesco a fare comparire le immagini ho creato un div con al suo interno sei div racchiuso all'interno della section
+se creo  altri due div e metto per ciascuno 3 foto ?  sono troppi i div?
+ */
+.galleria{
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+.uno .due .tre .quattro .cinque .sei{
 
+}
+.uno{
+    background-image: url('https://placeimg.com/470/340');
+} /*
+.due{
+    background-image: url('https://placeimg.com/470/340') ;
+}
+.tre{
+    background-image: url('https://placeimg.com/470/340') ;
+}
+.quattro{
+    background-image: url('https://placeimg.com/470/340') ;
+}
+.cinque{
+    background-image: url('https://placeimg.com/470/340') ;
+}
+.sei{
+    background-image: url('https://placeimg.com/470/340') ;
+}*/
 /*
 TODO: Allineare il container con il contenuto
 DOMANDA: Il container se lo allineo col resto del contenuto si modifica tutto? devo cambiare anche width e le sue proprietà?
