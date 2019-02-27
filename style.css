@@ -386,8 +386,15 @@ h6{
     justify-content: center;
     align-items: center;
 }
+.card-titolo hr{
+    width:100%;
+}
 .card .fas{
     font-size: 40px;
     font-weight: bold;
 }
-/*TODO: non compare hr, nelle card il testo lo inserisco come ul? o come paragrafo? (ci sono parole e alcune frasi una sotto l'altra)*/
+/*
+TODO: non compare hr, nelle card il testo lo inserisco come ul? o come paragrafo? (ci sono parole e alcune frasi una sotto l'altra)
+-Devi dargli una lunghezza ad hr senno non lo vedi
+-tutto quello che è una lista va inserito come ul e li
+*/
