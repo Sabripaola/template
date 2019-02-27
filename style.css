@@ -272,17 +272,22 @@ ul{
 }
 /*TODO: non riesco a fare comparire le immagini ho creato un div con al suo interno sei div racchiuso all'interno della section
 se creo  altri due div e metto per ciascuno 3 foto ?  sono troppi i div?
+Devi creare un div e al suo interno sei div
+.galleria (display flex, flex wrap: wrap )
+---.galleria .div{width: 33.3%, height: 400px;
+---.galleria .uno{ background-image: url('link')
+
+NON RIUSCIVI A VEDERLO PERCHE' NON GLI HAI DATO NE UNA LUNGHEZZA NE UN ALTEZZA
  */
 .galleria{
     width: 100%;
     height: 700px;
     display: flex;
-}
-.uno .due .tre .quattro .cinque .sei{
-
+    z-index: 9000;
 }
 .uno{
     background-image: url('https://placeimg.com/470/340');
+    width: 25%;
 } /*
 .due{
     background-image: url('https://placeimg.com/470/340') ;
@@ -302,4 +307,6 @@ se creo  altri due div e metto per ciascuno 3 foto ?  sono troppi i div?
 /*
 TODO: Allineare il container con il contenuto
 DOMANDA: Il container se lo allineo col resto del contenuto si modifica tutto? devo cambiare anche width e le sue proprietà?
+
+ALL'INTERNO DI .UNO DEVI INSERIRE UN PARAGRAFO E SEMPRE A .UNO DEVI DARE DISPLAY FLEX, JUSTIFY-CONTENT:CENTER, ALIGN-ITEMS: CENTER
 */
