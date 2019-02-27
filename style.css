@@ -379,9 +379,6 @@ h6{
     width: 30%;
     height: 380px;
     border: 1px solid black;
-
-
-
 }
 .card-titolo{
     display: flex;
@@ -389,3 +386,8 @@ h6{
     justify-content: center;
     align-items: center;
 }
+.card .fas{
+    font-size: 40px;
+    font-weight: bold;
+}
+/*TODO: non compare hr, nelle card il testo lo inserisco come ul? o come paragrafo? (ci sono parole e alcune frasi una sotto l'altra)*/
