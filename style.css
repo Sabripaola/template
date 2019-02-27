@@ -309,7 +309,6 @@ ul{
 .sei{
     background-image: url('https://placeimg.com/470/340');
 }
-/*TODO: non mi si centra h6 con sotto il paragrafo, loro devono apparire insieme all'effetto hover quando il mouse non va sopra si deve vedere solo la foto*/
 .galleria div:hover{
     filter: brightness(70%);
 }
@@ -321,6 +320,8 @@ h6{
 .galleria p{
     color: #fff;
 }
+/*TODO:  h6 e p si devono vedere solo quando vado su col mouse. Devo usare (display: none) per tenerlo nascosto? ma in che modo?*/
+
 /*
 ALL'INTERNO DI .UNO DEVI INSERIRE UN PARAGRAFO E SEMPRE A .UNO DEVI DARE DISPLAY FLEX, JUSTIFY-CONTENT:CENTER, ALIGN-ITEMS: CENTER
 */
