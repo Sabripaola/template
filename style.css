@@ -301,6 +301,9 @@ ul{
 .sei{
     background-image: url('https://placeimg.com/470/340');
 }
+.galleria div:hover{
+    filter: brightness(30%);
+}
 /*
 ALL'INTERNO DI .UNO DEVI INSERIRE UN PARAGRAFO E SEMPRE A .UNO DEVI DARE DISPLAY FLEX, JUSTIFY-CONTENT:CENTER, ALIGN-ITEMS: CENTER
 */
