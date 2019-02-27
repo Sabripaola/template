@@ -282,6 +282,9 @@ ul{
     -webkit-background-size: cover;
     background-size: cover;
     border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .uno{
     background-image: url('https://placeimg.com/470/340');
@@ -303,7 +306,10 @@ ul{
 }
 /*TODO: devo inserire il testo (titolo con il suo paragrafo) insieme all'effetto hover come lo inserisco nell'html e nel css*/
 .galleria div:hover{
-    filter: brightness(30%);
+    filter: brightness(70%);
+}
+.galleria p{
+    color: #fff;
 }
 /*
 ALL'INTERNO DI .UNO DEVI INSERIRE UN PARAGRAFO E SEMPRE A .UNO DEVI DARE DISPLAY FLEX, JUSTIFY-CONTENT:CENTER, ALIGN-ITEMS: CENTER
