@@ -327,10 +327,6 @@ h6{
     height: 600px;
     background: white;
 }
-/*TODO: il procedimento dei div è giusto? le img sono 3 ma non riesco a visualizzarle bene
-Il procedimento è giusto ma ti mancava background-size: cover, in modo tale da coprire il 100% del suo contenitore,
-poi se metti il bordo a .cf div, lo metterà a tutti i div al suo interno, invece lo devi mettere ad ogni singolo elemento
-*/
 .cf{
     width: 100%;
     display: flex;
@@ -359,4 +355,6 @@ poi se metti il bordo a .cf div, lo metterà a tutti i div al suo interno, invec
 .cf div:hover{
     filter: brightness(50%);
 }
+/*TODO: h6 e p devono essere centrati, hanno le stesse proprietà della sezione precedente */
+
 
