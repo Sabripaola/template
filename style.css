@@ -320,8 +320,8 @@ h6{
 .galleria p{
     color: #fff;
 }
-/*TODO:  h6 e p si devono vedere solo quando vado su col mouse. Devo usare (display: none) per tenerlo nascosto? ma in che modo?*/
-
-/*
-ALL'INTERNO DI .UNO DEVI INSERIRE UN PARAGRAFO E SEMPRE A .UNO DEVI DARE DISPLAY FLEX, JUSTIFY-CONTENT:CENTER, ALIGN-ITEMS: CENTER
-*/
+.expert{
+    width: 100%;
+    height: 400px;
+    background: yellow;
+}
