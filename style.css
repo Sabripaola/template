@@ -324,8 +324,8 @@ h6{
 /*TEAM*/
 .expert{
     width: 100%;
-    height: 400px;
-    background: yellow;
+    height: 600px;
+    background: white;
 }
 /*TODO: il procedimento dei div è giusto? le img sono 3 ma non riesco a visualizzarle bene
 Il procedimento è giusto ma ti mancava background-size: cover, in modo tale da coprire il 100% del suo contenitore,
@@ -334,7 +334,6 @@ poi se metti il bordo a .cf div, lo metterà a tutti i div al suo interno, invec
 .cf{
     width: 100%;
     display: flex;
-    background: black;
 }
 .cf div{
     width: 33%;
@@ -342,22 +341,22 @@ poi se metti il bordo a .cf div, lo metterà a tutti i div al suo interno, invec
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 .first{
     background-image: url('https://placeimg.com/340/340');
     background-size:cover;
-    border: 3px solid black;
+    border: 1px solid black;
 }
 .second{
     background-image: url('https://placeimg.com/340/340');
     background-size:cover;
-    border: 3px solid black;
 }
 .third{
     background-image: url('https://placeimg.com/340/340');
     background-size:cover;
+    border: 1px solid black;
 }
 .cf div:hover{
-    filter: brightness(70%);
+    filter: brightness(50%);
 }
+
