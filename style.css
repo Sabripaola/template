@@ -301,6 +301,7 @@ ul{
 .sei{
     background-image: url('https://placeimg.com/470/340');
 }
+/*TODO: devo inserire il testo (titolo con il suo paragrafo) insieme all'effetto hover come lo inserisco nell'html e nel css*/
 .galleria div:hover{
     filter: brightness(30%);
 }
