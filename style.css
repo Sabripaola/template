@@ -366,5 +366,17 @@ h6{
     height: 500px;
     background: #F7F7F7;
 }
+.contenitore-card{
+    width: 25%;
+    height: 200px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
 
-
+}
+.card-titolo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
