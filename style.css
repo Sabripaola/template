@@ -327,18 +327,19 @@ h6{
     height: 400px;
     background: yellow;
 }
+/*TODO: il procedimento dei div è giusto? le img sono 3 ma non riesco a visualizzarle bene*/
 .cf{
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    background: #111111;
+    background: black;
 }
 .cf div{
     width: 33%;
     height: 400px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    border: 3px solid black;
 }
 .first{
     background-image: url('https://placeimg.com/340/340');
@@ -348,4 +349,7 @@ h6{
 }
 .third{
     background-image: url('https://placeimg.com/340/340');
+}
+.cf div:hover{
+    filter: brightness(70%);
 }
